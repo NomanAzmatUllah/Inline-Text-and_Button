@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <style>
+         
+
+      .rows{
+  
+   
+   margin : 10px;
+   width: 84%;
+   display:flex;
+ }
+ .rows input {
+   flex:1;
+   height:41px;
+ }
+ .rows button {
+   width:80px;
+ }
+ </style>
+
+</head>
+
+<body>
+
+
+    
+       
+            <h1 style="text-align:center;">
+                Inline TextBox And Button
+            </h1>
+        <div class="rows">
+            <input type="text" class="form-control" placeholder="Enter Location">
+            <button type="button" class="btn btn-primary">Search</button>
+        </div>
+
+
+</body>
+</html>
